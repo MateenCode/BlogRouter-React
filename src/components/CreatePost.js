@@ -65,21 +65,19 @@ constructor(props){
 
 
 
-
-
   render() {
 
     if(this.state.submitted === true){
-      return <Redirect to='/postlist' />
+      return <Redirect to='/ShowPost' />
     }
 
     return (
 
       <div className="CreatePost">
 
-      <h1>Post SeeSh</h1>
+      <h1>~Post SeeSh~</h1>
 
-      <form>
+      <form onSubmit={this.SeeshSubmit} >
 
          <h3>Sheesh's Name</h3>
          <input  placeholder="Name" onChange={this.SeeshAuthor} value={this.state.name}></input>

@@ -9,7 +9,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
       <div className="Mainpage">
 
-      <h1>Oh SheeSh Y'all </h1>
+      <h1>~Oh SheeSh Y'all~</h1>
 
       <img src='http://2.media.collegehumor.cvcdn.com/84/32/7e1f3ef8506ef2ec17667f5ecfeb1156.jpg'/>
 

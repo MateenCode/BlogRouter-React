@@ -22,10 +22,14 @@ body{
     font-size: 18px;
 }
 
+  .nav a:hover, a:active {
+  color:white;
+  }
+
 h1{
   text-align: center;
-  color:#FD9B9B;
-  text-shadow: 2px 2px black;
+  color:#2D2D2D;
+  text-shadow: 3px 3px #F2DFCE;
   font-size: 40px;
 }
 
@@ -45,8 +49,8 @@ img{
   border-radius: 5px;
   width: 600px;
   height: 400px;
-  margin-left: 28%;
-
+  display:block;
+  margin: 0 auto;
 }
 
 .allPost{

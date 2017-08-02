@@ -23,7 +23,7 @@ class App extends Component {
            <Route exact path='/' component={MainPage} />
            <Route path='/CreatePost' component={CreatePost}/>
            <Route exact path='/ShowPost' component={PostList} />
-           <Route path='/ShowPost/:PostList' component={ShowPost} />
+           <Route path='/ShowPost/:id' component={ShowPost} />
 
 
            </Switch>
