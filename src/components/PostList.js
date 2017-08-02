@@ -32,7 +32,7 @@ import {Link, Route} from 'react-router-dom'
               <div>
               <div className="card" key={PostSeesh._id}>
                 <div className="block">
-                  <Link to={`/postlist/${PostSeesh._id}`} ><h4 className="title">{PostSeesh.title}</h4></Link>
+                  <Link to={`/showpost/${PostSeesh._id}`} ><h4 className="title">{PostSeesh.title}</h4></Link>
                   <h6>{PostSeesh.name}</h6>
                   <p className="text">{PostSeesh.blog}</p>
                 </div>
@@ -40,8 +40,6 @@ import {Link, Route} from 'react-router-dom'
             </div>
             )
           })}
-
-
 
 </div>
 

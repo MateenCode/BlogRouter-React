@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 
 
-
  export default class ShowPost extends Component {
 
    constructor(props) {
@@ -33,13 +32,14 @@ import '../styles/App.css';
   render() {
     return (
       <div>
-
-       <h1>{this.state.name}</h1>
-       <p>{this.state.author}</p>
-       <p>{this.state.blog}</p>
-
-
-
+      <div className="display">
+      <p>Name:</p>
+       <h2>{this.state.name}</h2>
+       <p>Title:</p>
+       <h2>{this.state.title}</h2>
+       <p>Sheesh:</p>
+       <h2>{this.state.blog}</h2>
+       </div>
       </div>
     );
   }
