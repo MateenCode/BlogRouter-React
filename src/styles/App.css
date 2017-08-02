@@ -1,5 +1,6 @@
 body{
   background-image: url('https://s-media-cache-ak0.pinimg.com/originals/b2/08/fa/b208fabcebd3ce962b6c79db6d7d60f4.jpg');
+  font-family: sans-serif;
 }
 
 
@@ -7,29 +8,25 @@ body{
     list-style-type: none;
     padding: 10px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FDADAC;
 }
 
 
  .nav a {
-    color: white;
+    color: #3B3B3B;
     padding: 14px 16px;
     text-decoration: none;
     padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 h1{
   text-align: center;
-  color:#4C4C4C;
-  text-shadow: 3px 3px black;
+  color:#FD9B9B;
+  text-shadow: 2px 2px black;
   font-size: 40px;
-}
-h2{
-  text-align: center;
-  color:#4C4C4C;
-  text-shadow: 3px 3px black;
-  font-size: 38px;
-
 }
 
 form{
@@ -40,15 +37,16 @@ form{
   padding: 30px;
   margin: 0 auto;
   color: white;
+  border-radius: 5px;
 
 }
 
 img{
   border-radius: 5px;
-  width: 500px;
+  width: 600px;
   height: 400px;
-  margin-left: 30%;
-  opacity: 0.9;
+  margin-left: 28%;
+
 }
 
 .allPost{
@@ -59,4 +57,23 @@ img{
   padding: 30px;
   margin: 0 auto;
   color: white;
+}
+
+.card{
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #4C4C4C;
+  width: 30%;
+  opacity: 0.9;
+  margin: 0 auto;
+}
+
+a{
+  color: skyblue;
+  text-decoration: none;
+}
+
+a :hover{
+  color:white;
 }
