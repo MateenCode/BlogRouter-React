@@ -1,6 +1,6 @@
 ## OSheeShYall Blog 
 
-A simple Blog Website that demonstrates the use of Dynamic Routers access the invidual id of posts. 
+A simple Blog Website that demonstrates the use of Dynamic Routers with the ability post and access the invidual id of posts. 
 
 ## ScreenShot
 
