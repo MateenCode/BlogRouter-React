@@ -4,4 +4,4 @@ A simple Blog Website that demonstrates the use of Dynamic Routers with the abil
 
 ## ScreenShot
 
-![aug-02-2017 17-37-28](https://user-images.githubusercontent.com/28902787/28898060-56a14b8a-77a9-11e7-8a66-eaa064df8f52.gif)
+![aug-02-2017 17-52-41](https://user-images.githubusercontent.com/28902787/28898427-7dd7c858-77ab-11e7-808b-45403aaa0c26.gif)
